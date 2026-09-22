@@ -1,0 +1,17 @@
+# Development Dependencies for IIUI Smart Chatbot
+# Install with: pip install -r requirements-dev.txt
+
+# Include production dependencies
+-r requirements.txt
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-flask>=1.2.0
+
+# Code quality
+flake8>=6.0.0
+black>=23.0.0
+
+# Utilities
+faker>=18.0.0
