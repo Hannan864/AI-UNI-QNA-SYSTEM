@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Admissions",
+    "question": "What is the admission process at IIUI?",
+    "answer": "The IIUI admission process involves: 1) Online application submission through the IIUI admissions portal, 2) Uploading required documents (matric/inter certificates, CNIC, photographs), 3) Payment of application fee, 4) Appearing for the entry test, 5) Interview session, 6) Merit list announcement. Admission weightage: 40% Entry Test + 40% Academic Qualification + 20% Interview.",
+    "keywords": "admission, apply, enrollment, entry test, IIUI"
+  },
+  {
+    "category": "Admissions",
+    "question": "What documents are required for admission?",
+    "answer": "Required documents for IIUI admission: Matric/O-Level certificate, Inter/A-Level certificate, CNIC/Form-B, 4 passport-size photographs, Character certificate, Domicile certificate, Migration certificate (if applicable), and Entry test result. All documents must be attested.",
+    "keywords": "documents, certificates, admission requirements"
+  },
+  {
+    "category": "Admissions",
+    "question": "When is the admission deadline?",
+    "answer": "Admission deadlines vary by semester. For Fall semester, applications typically open in June-July with deadline in August. For Spring semester, applications open in November-December with deadline in January. Please check the official IIUI admissions portal for exact dates.",
+    "keywords": "deadline, last date, admission dates"
+  },
+  {
+    "category": "Fees",
+    "question": "What is the fee structure at IIUI?",
+    "answer": "IIUI fee structure varies by program: BS Computer Science: Admission fee Rs. 102,000, Semester fee Rs. 45,000-55,000. B.Ed Programs: Admission fee Rs. 53,300, Semester fee Rs. 25,000-35,000. BS Engineering: Admission fee Rs. 95,000, Semester fee Rs. 40,000-50,000. Masters Programs: Admission fee Rs. 45,000, Semester fee Rs. 20,000-30,000. These are approximate figures - verify with official IIUI fee schedule.",
+    "keywords": "fee, fees, tuition, payment, cost"
+  },
+  {
+    "category": "Fees",
+    "question": "Are there scholarships available?",
+    "answer": "IIUI offers several scholarship programs: 1) Merit Scholarship - based on academic performance, 2) Need-Based Financial Aid - for students from low-income families, 3) HEC Need-Based Scholarship - government-funded, 4) Alumni Scholarship - funded by IIUI alumni, 5) Sports Scholarship - for outstanding athletes. Contact the scholarship office for eligibility and application details.",
+    "keywords": "scholarship, financial aid, waiver, stipend"
+  },
+  {
+    "category": "Courses",
+    "question": "What courses are offered at IIUI?",
+    "answer": "IIUI offers programs across multiple faculties: Faculty of Computing & Mathematics (BS CS, BS Data Science, BS SE, BS Mathematics), Faculty of Engineering (BS Electrical, Civil, Mechanical Engineering), Faculty of Management Sciences (BBA, MBA, BS Accounting & Finance), Faculty of Social Sciences (BS Psychology, Sociology, International Relations), Faculty of Languages & Literature (BS English, Arabic, Urdu), Faculty of Islamic Studies (BS Islamic Studies, BS Shariah & Law).",
+    "keywords": "courses, programs, degrees, faculties, departments"
+  },
+  {
+    "category": "Examinations",
+    "question": "When are examinations held at IIUI?",
+    "answer": "IIUI examination schedule: Mid-term examinations are typically held in the middle of the semester (around October for Fall, March for Spring). Final examinations are conducted at the end of each semester (December-January for Fall, May-June for Spring). Results are usually announced within 2-3 weeks after exams. Check the academic calendar for exact dates.",
+    "keywords": "exam, examination, midterm, final, schedule, timetable"
+  },
+  {
+    "category": "Examinations",
+    "question": "What is the grading system at IIUI?",
+    "answer": "IIUI uses a CGPA-based grading system on a 4.0 scale: A+ (90-100%, 4.0), A (80-89%, 3.7), B+ (75-79%, 3.3), B (70-74%, 3.0), C+ (65-69%, 2.7), C (60-64%, 2.3), D (50-59%, 1.7), F (Below 50%, 0.0). Minimum CGPA of 2.0 is required for good academic standing.",
+    "keywords": "grading, GPA, CGPA, grades, marks"
+  },
+  {
+    "category": "Academic",
+    "question": "What are the academic policies at IIUI?",
+    "answer": "Key IIUI academic policies: 1) Attendance must be at least 75% per course, 2) Students must maintain minimum CGPA of 2.0, 3) Maximum course load is 18 credit hours per semester, 4) Course drop deadline is within first 2 weeks, 5) Academic integrity violations result in disciplinary action, 6) Repeated failure may lead to academic probation or dismissal.",
+    "keywords": "policy, rules, regulations, attendance, academic"
+  },
+  {
+    "category": "Services",
+    "question": "What services does IIUI provide?",
+    "answer": "IIUI provides comprehensive student services: 1) Central Library with digital resources, 2) IT Center with computer labs and WiFi, 3) Health Center for medical assistance, 4) Hostel accommodation for male and female students, 5) Transport service with bus routes, 6) Career counseling and placement cell, 7) Sports complex with gymnasium, 8) Student counseling center, 9) Cafeteria and dining facilities, 10) Wi-Fi across campus.",
+    "keywords": "services, facilities, library, hostel, transport, sports"
+  }
+]
