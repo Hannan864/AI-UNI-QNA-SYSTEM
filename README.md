@@ -2,339 +2,488 @@
 
 <div align="center">
 
-### Intelligent Academic Assistance, NLP, Machine Learning & AI Chat
+# 🤖 IIUI Smart Chatbot
+
+### Intelligent University Assistance • NLP • Machine Learning • Semantic Search • Gemini AI • Voice Interaction
 
 **BS Final Year Project — International Islamic University Islamabad (IIUI)**
+
+<br>
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Flask](https://img.shields.io/badge/Flask-Backend-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Python AI](https://img.shields.io/badge/AI-Powered-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Gemini](https://img.shields.io/badge/Google_Gemini-AI-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Scikit Learn](https://img.shields.io/badge/Scikit--learn-Machine_Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![spaCy](https://img.shields.io/badge/spaCy-NLP-09A3D5?style=for-the-badge)](https://spacy.io/)
+[![FAISS](https://img.shields.io/badge/FAISS-Semantic_Search-0468D7?style=for-the-badge)](https://github.com/facebookresearch/faiss)
 [![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![FAISS](https://img.shields.io/badge/FAISS-Vector_Search-0468D7?style=for-the-badge)](https://github.com/facebookresearch/faiss)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-<p>
-  <b>A full-stack university support chatbot combining NLP, traditional machine learning, semantic retrieval, local knowledge-base responses, live AI integration, authentication, administration, and voice interaction.</b>
-</p>
+<br>
+
+**An AI-assisted university support platform combining traditional NLP, machine learning, semantic retrieval, knowledge-base search, Gemini/live AI integration, authentication, administration, and voice interaction.**
 
 </div>
 
 ---
 
-## 📌 Project Overview
+## 🖼️ AI & System Showcase
+
+<div align="center">
+
+### 🧠 AI-Powered University Assistance
+
+```text
+                    ┌─────────────────────────┐
+                    │       👨‍🎓 USER          │
+                    │  Student / Faculty      │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │    💬 CHAT INTERFACE    │
+                    │       Streamlit         │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │      🧠 AI PIPELINE     │
+                    │   NLP + ML + Retrieval  │
+                    └────────────┬────────────┘
+                                 │
+              ┌──────────────────┴──────────────────┐
+              │                                     │
+              ▼                                     ▼
+     ┌──────────────────┐                 ┌──────────────────┐
+     │   📚 KNOWLEDGE   │                 │   ✨ GEMINI AI   │
+     │      BASE        │                 │   LIVE AI MODE   │
+     │  SQLite + FAISS  │                 │  External Model  │
+     └────────┬─────────┘                 └────────┬─────────┘
+              │                                    │
+              └────────────────┬───────────────────┘
+                               ▼
+                    ┌─────────────────────────┐
+                    │      🤖 RESPONSE        │
+                    │ University Assistance   │
+                    └─────────────────────────┘
+````
+
+</div>
+
+---
+
+# 📌 What Is IIUI Smart Chatbot?
 
 **IIUI Smart Chatbot** is a university-focused AI and NLP application developed as a **BS Final Year Project** for **International Islamic University Islamabad (IIUI)**.
 
-The system is designed to provide students and faculty with a centralized conversational interface for accessing university-related information such as:
+The system provides students and faculty with a conversational interface for accessing university-related information including:
 
-- Admissions and eligibility
-- Academic programs and courses
-- Fees and financial information
-- Examination and grading policies
-- Academic calendar information
-- FYP guidelines
-- Hostel and transport information
-- Scholarships and financial aid
-- Student policies and general university information
+* 🎓 Admissions and eligibility
+* 📚 Academic programs and courses
+* 💰 Fees and financial information
+* 📝 Examination and grading policies
+* 📅 Academic calendar
+* 🧑‍💻 FYP guidelines
+* 🏠 Hostel and transport information
+* 🎓 Scholarships and financial aid
+* 📖 Student policies and university guidance
 
-Rather than relying on a single chatbot mechanism, the project combines multiple approaches:
+The project combines **traditional NLP, machine learning, semantic search, local knowledge retrieval, and live AI integration** into one application.
 
-**User Query → NLP Processing → Intent Classification → Retrieval / Response Generation → Mock or Live AI Response**
+The key idea is:
 
-The project demonstrates practical implementation of **AI, NLP, machine learning, information retrieval, backend APIs, authentication, database design, testing, and user-facing application development**.
-
----
-
-## 🧭 Navigation
-
-- [🎯 Core Capabilities](#-core-capabilities)
-- [🏗️ System Architecture](#️-system-architecture)
-- [🤖 AI, NLP & ML Pipeline](#-ai-nlp--ml-pipeline)
-- [🔎 Knowledge Retrieval](#-knowledge-retrieval)
-- [🔐 Authentication & Administration](#-authentication--administration)
-- [🎙️ Voice Interaction](#️-voice-interaction)
-- [🛠️ Technology Stack](#️-technology-stack)
-- [📂 Project Structure](#-project-structure)
-- [🚀 Quick Start](#-quick-start)
-- [🧪 Testing](#-testing)
-- [📚 Knowledge Base Documents](#-knowledge-base-documents)
-- [🎓 FYP Module Coverage](#-fyp-module-coverage)
-- [🧠 QNA](#-qna-about-this-project)
-- [📬 Contact & Hire Me](#-contact--hire-me)
+> **Don't rely on one AI technique — combine deterministic university knowledge with ML, semantic retrieval, and modern generative AI.**
 
 ---
 
-# 🎯 Core Capabilities
-
-| Area | Implementation | What It Demonstrates |
-|------|----------------|----------------------|
-| 💬 Conversational UI | Streamlit | Interactive application development |
-| 🧠 NLP | NLTK + spaCy | Text preprocessing and language analysis |
-| 🤖 Machine Learning | TF-IDF + Logistic Regression | Intent classification |
-| 🔎 Semantic Retrieval | Sentence Transformers + FAISS | Knowledge retrieval |
-| 📚 Knowledge Base | SQLite | Structured university information |
-| 🧩 Response Generation | Custom response pipeline | Context-aware answer generation |
-| 🔀 Chat Routing | Mock / Live modes | Modular AI architecture |
-| 🌐 Backend APIs | Flask | REST-style backend development |
-| 🔐 Authentication | bcrypt + sessions | User authentication |
-| 👨‍💼 Administration | Admin dashboard | System and content management |
-| 🎙️ Voice | SpeechRecognition + gTTS | Voice-based interaction |
-| 🧪 Testing | Phase-based test suites | Software verification |
-| 🤖 Live AI | Provider-agnostic integration | External AI service integration |
-
----
-
-# 🏗️ System Architecture
+# ✨ AI Architecture at a Glance
 
 ```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                              USER INTERFACE                                   │
-│                         Streamlit Application                                 │
-│                                                                              │
-│       Student / Faculty                     Administrator                    │
-│              │                                     │                         │
-│              └──────────────────┬──────────────────┘                         │
-│                                 ▼                                            │
-│                         Chat / Dashboard UI                                  │
-└────────────────────────────────┬─────────────────────────────────────────────┘
-                                 │
-                                 ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                              FLASK BACKEND                                   │
-│                                                                              │
-│   Authentication │ Sessions │ Chat APIs │ Admin APIs │ AI Configuration      │
-└────────────────────────────────┬─────────────────────────────────────────────┘
-                                 │
-                                 ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                           CHAT ROUTER                                        │
-│                                                                              │
-│                    ┌──────────────┴──────────────┐                           │
-│                    ▼                             ▼                           │
-│               MOCK MODE                     LIVE MODE                       │
-│                    │                             │                           │
-│                    ▼                             ▼                           │
-│          NLP / ML / Retrieval             AI Provider Service               │
-│                    │                             │                           │
-│                    ▼                             ▼                           │
-│        Knowledge Base + FAISS          External AI Provider                 │
-└────────────────────┬────────────────────────────┬────────────────────────────┘
-                     │                            │
-                     └─────────────┬──────────────┘
-                                   ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                         RESPONSE PIPELINE                                    │
-│                                                                              │
-│     NLP Processing → Intent Detection → Retrieval → Response Generation     │
-└────────────────────────────────┬─────────────────────────────────────────────┘
-                                 │
-                                 ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                              DATA LAYER                                      │
-│                                                                              │
-│     SQLite Database │ FAQ / KB Data │ Chat History │ ML Artifacts │ Logs     │
-└──────────────────────────────────────────────────────────────────────────────┘
-````
+                         USER QUESTION
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │  Streamlit Chat   │
+                    │     Interface     │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │   Flask Backend   │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │    Chat Router    │
+                    └─────────┬─────────┘
+                              │
+                 ┌────────────┴────────────┐
+                 │                         │
+                 ▼                         ▼
+        ┌─────────────────┐       ┌──────────────────┐
+        │   MOCK MODE     │       │    LIVE AI MODE  │
+        │                 │       │                  │
+        │ NLTK + spaCy    │       │  Gemini / AI     │
+        │ TF-IDF + ML     │       │    Provider      │
+        │ FAISS + KB      │       │                  │
+        └────────┬────────┘       └────────┬─────────┘
+                 │                         │
+                 └────────────┬────────────┘
+                              ▼
+                    ┌───────────────────┐
+                    │ Response Generator│
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    🤖 FINAL RESPONSE
+```
 
 ---
 
-# 🤖 AI, NLP & ML Pipeline
+# 🎯 Core Features
 
-The chatbot uses multiple AI/NLP components rather than treating every query as a direct LLM request.
+## 👨‍🎓 Student & Faculty Features
 
-### 1. Text Processing
+### 💬 University AI Assistant
 
-User input is processed through NLP components using:
+Ask natural-language questions about university-related information.
+
+### 📚 Knowledge-Based Assistant
+
+Answers can be generated using locally maintained university information.
+
+### ✨ Live AI Assistant
+
+Supports integration with an external AI provider, including Gemini-compatible AI configuration.
+
+### 🔎 Semantic Search
+
+Uses embeddings and FAISS to retrieve semantically relevant information.
+
+### 🧠 Intent Detection
+
+Machine-learning classification identifies the likely intent behind a user's query.
+
+### 💾 Chat History
+
+Users can review previous conversations stored by the application.
+
+### 🎙️ Voice Interaction
+
+Users can provide questions through microphone input instead of typing.
+
+---
+
+# 👨‍💼 Administrator Features
+
+The administrator interface provides management capabilities for the complete chatbot ecosystem.
+
+| Module             | Function                                         |
+| ------------------ | ------------------------------------------------ |
+| 📊 Dashboard       | System statistics and overview                   |
+| 📚 Knowledge Base  | Create, update and manage university information |
+| ❓ FAQ Management   | Manage frequently asked questions                |
+| 👥 User Management | View and manage registered users                 |
+| 💬 Chat Logs       | Review chatbot interactions                      |
+| ⚙️ AI Settings     | Configure live AI provider                       |
+| 🧠 ML Management   | View model status and retraining functionality   |
+
+---
+
+# 🤖 AI & Machine Learning Stack
+
+The project demonstrates several different approaches to AI rather than depending entirely on a single LLM.
+
+## 🧠 Natural Language Processing
+
+Implemented using:
 
 * **NLTK**
 * **spaCy**
-* Text normalization
-* Tokenization / linguistic processing
-* Intent-related feature preparation
+* Text preprocessing
+* Linguistic processing
+* Intent-oriented feature preparation
 
-### 2. Intent Classification
+---
 
-The project uses a traditional machine-learning pipeline based on:
+## 📈 Traditional Machine Learning
+
+The intent-classification pipeline uses:
 
 ```text
 User Query
-    ↓
-Text Preprocessing
-    ↓
-TF-IDF Feature Extraction
-    ↓
+     ↓
+Text Processing
+     ↓
+TF-IDF Vectorization
+     ↓
 Logistic Regression
-    ↓
-Predicted Intent
+     ↓
+Intent Classification
 ```
 
-This provides a lightweight approach for classifying common university-related query types.
+### Why this matters
 
-### 3. Retrieval
-
-For knowledge-base questions, the system can use semantic retrieval through:
-
-* Sentence Transformers
-* FAISS
-* FAQ / knowledge-base content
-
-This allows the application to search for semantically relevant information instead of relying only on exact keyword matching.
-
-### 4. Response Generation
-
-The response-generation layer combines the available information sources and produces the final chatbot response.
-
-The architecture separates:
-
-* Query processing
-* Classification
-* Retrieval
-* Response generation
-* AI provider integration
-
-This makes individual components easier to modify and test.
+This gives the project an actual **machine-learning classification layer** instead of making the application simply an API wrapper around a generative AI model.
 
 ---
 
-# 🔎 Knowledge Retrieval
+# ✨ Gemini / Generative AI Integration
 
-The **Mock Data Assistant** is designed to answer questions using locally available university information.
+The project includes a **Live AI layer** designed to communicate with an external AI provider.
+
+Where Gemini is configured as the provider, the flow becomes:
 
 ```text
-University Documents
-        ↓
-Knowledge Base
-        ↓
-Embedding / Retrieval Layer
-        ↓
-FAISS Semantic Search
-        ↓
-Relevant Information
-        ↓
-Response Generator
-        ↓
-Chatbot Response
+                  User Question
+                        │
+                        ▼
+                ┌───────────────┐
+                │ Chat Router   │
+                └───────┬───────┘
+                        │
+                        ▼
+                ┌───────────────┐
+                │ Live AI       │
+                │ Service       │
+                └───────┬───────┘
+                        │
+                        ▼
+                ┌───────────────┐
+                │ Google Gemini │
+                │      ✨       │
+                └───────┬───────┘
+                        │
+                        ▼
+                AI-Generated Response
 ```
 
-This approach is particularly useful for university information because the chatbot can operate using a controlled knowledge source instead of requiring every response to come directly from an external AI service.
+The AI service is separated from the rest of the application so that the chatbot architecture is not tightly coupled to one specific provider.
+
+### AI responsibilities
+
+Depending on the configured provider, the Live AI layer can support:
+
+* Natural-language conversation
+* Flexible question answering
+* AI-generated responses
+* Context-aware conversational interaction
+* Provider-specific AI configuration
+
+> **Important:** The local Mock mode remains independent of external AI services, allowing the project to demonstrate its own NLP, ML, retrieval, and knowledge-base pipeline.
 
 ---
 
-# 🔀 Mock AI vs Live AI
+# 🔎 Semantic Search & Knowledge Retrieval
 
-The project supports two conversational modes.
+The project uses:
 
-| Mode                    | Data Source            | External AI Required | Purpose                             |
-| ----------------------- | ---------------------- | -------------------- | ----------------------------------- |
-| 🗃️ Mock Data Assistant | Local KB + FAISS       | No                   | Controlled university information   |
-| 🤖 Live AI Assistant    | Configured AI provider | Yes                  | AI-powered conversational responses |
+* **Sentence Transformers**
+* **Embeddings**
+* **FAISS**
+* **SQLite knowledge base**
 
-### Mock Mode
+The retrieval process can be represented as:
 
-Mock mode is designed around the project's local university knowledge base and retrieval pipeline.
+```text
+University Information
+        │
+        ▼
+ Knowledge Base
+        │
+        ▼
+Sentence Transformer
+        │
+        ▼
+   Embeddings
+        │
+        ▼
+      FAISS
+        │
+        ▼
+Relevant Information
+        │
+        ▼
+Response Generator
+```
 
-It is useful for:
-
-* Offline/local demonstrations
-* Predictable university information
-* Testing NLP and retrieval components
-* Reducing dependency on external AI APIs
-
-### Live AI Mode
-
-Live mode provides integration with an external AI provider through the project's AI service layer.
-
-The architecture is designed to keep the provider implementation separate from the rest of the chatbot pipeline.
+This allows the system to retrieve information based on **semantic similarity**, rather than depending exclusively on exact keyword matching.
 
 ---
 
-# 🔐 Authentication & Administration
+# 🧩 Hybrid AI Architecture
 
-The system includes separate user-facing and administrative functionality.
+One of the main technical aspects of the project is that different technologies perform different jobs.
 
-### Authentication
+| Component                | Responsibility               |
+| ------------------------ | ---------------------------- |
+| 🧹 NLTK                  | NLP processing               |
+| 🧠 spaCy                 | Linguistic processing        |
+| 📈 TF-IDF                | Text feature extraction      |
+| 🤖 Logistic Regression   | Intent classification        |
+| 🔎 Sentence Transformers | Semantic embeddings          |
+| ⚡ FAISS                  | Vector similarity search     |
+| 📚 SQLite                | University knowledge storage |
+| ✨ Gemini / AI Provider   | Generative AI responses      |
+| 🧩 Response Generator    | Final response construction  |
 
-Authentication is implemented using:
+This creates a **hybrid conversational architecture** combining traditional ML, retrieval-based methods, and generative AI.
 
-* Flask backend
-* Password hashing with bcrypt
-* Session management
-* Role-aware access
+---
 
-### Administrator Capabilities
+# 🏗️ Full System Architecture
 
-Administrators can access functionality for:
+```text
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              PRESENTATION LAYER                              │
+│                                                                              │
+│                              Streamlit UI                                    │
+│                                                                              │
+│       Student / Faculty                         Administrator               │
+│              │                                          │                    │
+│              └────────────────────┬─────────────────────┘                    │
+└───────────────────────────────────┼──────────────────────────────────────────┘
+                                    │
+                                    ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              BACKEND LAYER                                   │
+│                                                                              │
+│                                Flask                                         │
+│                                                                              │
+│       Authentication │ Sessions │ Chat APIs │ Admin APIs │ AI Settings      │
+└───────────────────────────────────┼──────────────────────────────────────────┘
+                                    │
+                                    ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              CHAT ROUTER                                     │
+│                                                                              │
+│                         ┌────────┴────────┐                                  │
+│                         ▼                 ▼                                  │
+│                     MOCK MODE         LIVE AI MODE                           │
+└─────────────────────────┼─────────────────┼──────────────────────────────────┘
+                          │                 │
+                          ▼                 ▼
+              ┌──────────────────┐   ┌────────────────────┐
+              │ NLP + ML Pipeline│   │ AI Provider Layer │
+              └────────┬─────────┘   └─────────┬──────────┘
+                       │                       │
+                       ▼                       ▼
+              ┌──────────────────┐     ┌──────────────────┐
+              │ SQLite + FAISS   │     │ Gemini / External │
+              │ Knowledge Base   │     │ AI Provider       │
+              └────────┬─────────┘     └─────────┬──────────┘
+                       │                         │
+                       └────────────┬────────────┘
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Response Generation  │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │     Chat Response    │
+                         └──────────────────────┘
+```
 
-* 📊 System dashboard
-* 📚 Knowledge-base management
-* ❓ FAQ management
-* 👥 User management
-* 💬 Chat-log monitoring
-* ⚙️ AI provider configuration
-* 🧠 ML model management
+---
 
-This gives the project an operational layer beyond the chatbot interface itself.
+# 🔐 Authentication & Security
+
+Authentication is implemented through the Flask backend.
+
+### Security Components
+
+* 🔑 Password hashing with bcrypt
+* 👤 User authentication
+* 🛡️ Session management
+* 👨‍💼 Role-aware administration
+* 🔒 Separation of user/admin functionality
+
+The system distinguishes normal users from administrators so management functions remain separated from the student/faculty experience.
 
 ---
 
 # 🎙️ Voice Interaction
 
-The chatbot also supports voice-based input.
+The chatbot supports voice input as an additional interaction method.
 
-### Voice Flow
+## Voice Pipeline
 
 ```text
 🎤 Microphone
-      ↓
+      │
+      ▼
 Speech Recognition
-      ↓
+      │
+      ▼
 Text Query
-      ↓
-Chat Pipeline
-      ↓
-Response
+      │
+      ▼
+NLP / AI Pipeline
+      │
+      ▼
+Chat Response
 ```
 
-### How to Use
+## How I Use It
 
 1. Open the Chat Assistant.
 2. Select Mock or Live mode.
 3. Enable the **🎤 Voice** option.
-4. Use the microphone widget.
-5. Speak the question.
-6. The speech input is converted to text.
-7. The resulting text is processed through the normal chatbot pipeline.
+4. Allow microphone access.
+5. Speak the university-related question.
+6. Speech is converted to text.
+7. The text enters the normal chatbot pipeline.
+8. The response is displayed to the user.
 
-### Requirements
+### Voice Requirements
 
 * Browser microphone permission
 * SpeechRecognition library
 * Internet connection for the configured Google Speech Recognition service
 
-If voice input is unavailable, normal text-based chat remains available.
+If voice recognition fails, normal text input remains available.
+
+---
+
+# 🗄️ Database & Data Layer
+
+The project uses **SQLite** for local persistent storage.
+
+The database supports application data such as:
+
+* Users
+* Knowledge-base records
+* FAQs
+* Chat history
+* Administrative data
+* Application-related records
+
+The project also maintains supporting artifacts for machine-learning and retrieval components.
 
 ---
 
 # 🛠️ Technology Stack
 
-| Layer              | Technology            | Role                        |
-| ------------------ | --------------------- | --------------------------- |
-| Language           | Python 3.10+          | Application development     |
-| Frontend           | Streamlit             | Web UI                      |
-| Backend            | Flask                 | Backend/API layer           |
-| NLP                | NLTK + spaCy          | Text processing             |
-| Machine Learning   | Scikit-learn          | Intent classification       |
-| Feature Extraction | TF-IDF                | ML text representation      |
-| ML Algorithm       | Logistic Regression   | Intent classification       |
-| Embeddings         | Sentence Transformers | Semantic representation     |
-| Vector Search      | FAISS                 | Similarity retrieval        |
-| Database           | SQLite                | Persistent application data |
-| Authentication     | bcrypt                | Password hashing            |
-| Voice Input        | SpeechRecognition     | Speech-to-text              |
-| Voice Output       | gTTS                  | Text-to-speech              |
-| AI Integration     | Provider-agnostic     | Live AI responses           |
+| Layer             | Technology            | Purpose                     |
+| ----------------- | --------------------- | --------------------------- |
+| 💻 Language       | Python 3.10+          | Core development            |
+| 🖥️ Frontend      | Streamlit             | Interactive web interface   |
+| 🌐 Backend        | Flask                 | API and application backend |
+| 🧠 NLP            | NLTK                  | Natural-language processing |
+| 🧠 NLP            | spaCy                 | Linguistic processing       |
+| 📈 ML             | Scikit-learn          | Machine learning            |
+| 🔢 Features       | TF-IDF                | Text vectorization          |
+| 🤖 Classifier     | Logistic Regression   | Intent classification       |
+| 🔎 Embeddings     | Sentence Transformers | Semantic representation     |
+| ⚡ Vector Search   | FAISS                 | Similarity retrieval        |
+| 🗄️ Database      | SQLite                | Persistent storage          |
+| 🔐 Authentication | bcrypt                | Password hashing            |
+| ✨ Generative AI   | Gemini / AI Provider  | Live AI responses           |
+| 🎙️ Speech        | SpeechRecognition     | Voice input                 |
+| 🔊 TTS            | gTTS                  | Text-to-speech              |
 
 ---
 
@@ -346,32 +495,32 @@ iiui-chatbot/
 ├── app.py                         # Streamlit frontend
 ├── flask_server.py                # Flask backend
 ├── config.py                      # Application configuration
-├── requirements.txt               # Python dependencies
+├── requirements.txt               # Dependencies
 │
 ├── RUN.bat                        # One-click Windows launcher
-├── start_flask.bat                # Backend launcher
-├── start_streamlit.bat            # Frontend launcher
-├── run_tests.bat                  # Test-suite launcher
+├── start_flask.bat                # Flask launcher
+├── start_streamlit.bat            # Streamlit launcher
+├── run_tests.bat                  # Complete test launcher
 ├── README.md                      # Project documentation
 │
 ├── auth/
-│   ├── login.py                   # Authentication logic
+│   ├── login.py                   # Authentication
 │   └── session_manager.py         # Session management
 │
 ├── database/
-│   ├── db.py                      # SQLite database manager
-│   └── init_db.py                 # Database initialization + seed data
+│   ├── db.py                      # SQLite manager
+│   └── init_db.py                 # Initialization + seed data
 │
 ├── models/
 │   ├── nlp_processor.py           # NLTK + spaCy processing
-│   ├── ml_classifier.py           # ML intent classifier
+│   ├── ml_classifier.py            # ML intent classifier
 │   ├── response_generator.py      # Response generation
 │   ├── chat_router.py             # Mock / Live routing
-│   ├── generator.py               # Mock response generation
+│   ├── generator.py               # Mock answer generator
 │   ├── retriever.py               # FAISS retrieval
 │   └── live_ai_service.py         # Live AI provider service
 │
-├── voice/                          # Voice-related functionality
+├── voice/                          # Voice functionality
 ├── mock_data/                      # Sample university data
 ├── models/ml_artifacts/            # Trained ML artifacts
 ├── embeddings/                     # FAISS embedding/cache data
@@ -379,21 +528,21 @@ iiui-chatbot/
 │
 ├── test_phase3.py                  # Backend API tests
 ├── test_phase4.py                  # Authentication tests
-├── test_phase5.py                  # Knowledge Base / FAQ tests
+├── test_phase5.py                  # Knowledge Base tests
 ├── test_phase6.py                  # Mock mode tests
 ├── test_phase7.py                  # Live AI tests
-├── test_phase8.py                  # Chat mode router tests
+├── test_phase8.py                  # Router tests
 ├── test_phase9.py                  # NLP tests
-└── test_phase10_11.py              # ML + response-generation tests
+└── test_phase10_11.py              # ML + response tests
 ```
 
 ---
 
 # 🚀 Quick Start
 
-## Windows — One-Click Launch
+## 🪟 Windows — One Click
 
-The project includes a Windows launcher:
+The easiest way to launch the complete application is:
 
 ```text
 RUN.bat
@@ -401,27 +550,27 @@ RUN.bat
 
 ### Steps
 
-1. Double-click **`RUN.bat`**.
-2. Wait for the backend and frontend services to start.
-3. The application should open in the browser.
+1. Double-click **`RUN.bat`**
+2. Wait for the backend and frontend to start
+3. The browser should open automatically
 4. Open:
 
 ```text
 http://localhost:8501
 ```
 
-### Demo Credentials
+### 🔐 Local Demo Account
 
 ```text
 Email:    admin@iiu.edu.pk
 Password: admin123
 ```
 
-> ⚠️ These credentials are intended for local/demo use. Change or remove seeded credentials before deploying an application outside the development environment.
+> ⚠️ These credentials are intended for local/demo use. Replace seeded credentials before any real deployment.
 
 ---
 
-## Manual Startup
+# 🖥️ Manual Startup
 
 ### Terminal 1 — Flask Backend
 
@@ -435,7 +584,7 @@ python flask_server.py
 streamlit run app.py --server.port 8501
 ```
 
-Then open:
+Then visit:
 
 ```text
 http://localhost:8501
@@ -445,7 +594,7 @@ http://localhost:8501
 
 # 🧪 Testing
 
-The project includes phase-based test suites covering major system components.
+The project contains phase-based test suites covering different parts of the system.
 
 ```bash
 python test_phase3.py
@@ -458,32 +607,30 @@ python test_phase9.py
 python test_phase10_11.py
 ```
 
-### Test Coverage
-
-| Test Suite           | Focus                    |
-| -------------------- | ------------------------ |
-| `test_phase3.py`     | Backend APIs             |
-| `test_phase4.py`     | Authentication           |
-| `test_phase5.py`     | Knowledge Base / FAQ     |
-| `test_phase6.py`     | Mock mode                |
-| `test_phase7.py`     | Live AI                  |
-| `test_phase8.py`     | Mode routing             |
-| `test_phase9.py`     | NLP processing           |
-| `test_phase10_11.py` | ML + response generation |
-
-On Windows, the complete suite can also be launched using:
+Or on Windows:
 
 ```text
 run_tests.bat
 ```
 
+## Test Coverage
+
+| Test File            | Coverage                 |
+| -------------------- | ------------------------ |
+| `test_phase3.py`     | Backend APIs             |
+| `test_phase4.py`     | Authentication           |
+| `test_phase5.py`     | Knowledge Base / FAQ     |
+| `test_phase6.py`     | Mock AI mode             |
+| `test_phase7.py`     | Live AI integration      |
+| `test_phase8.py`     | Mode routing             |
+| `test_phase9.py`     | NLP processing           |
+| `test_phase10_11.py` | ML + response generation |
+
 ---
 
-# 🧪 Manual Testing Guide
+# 🧪 Manual Testing Flow
 
-A basic end-to-end verification flow:
-
-### Student / Faculty Flow
+## 👨‍🎓 Student / Faculty
 
 1. Start the application using `RUN.bat`.
 2. Register or log in.
@@ -494,125 +641,169 @@ A basic end-to-end verification flow:
 What is the admission process?
 ```
 
-5. Verify that the chatbot processes the question and returns university-related information.
+5. Verify the response.
 6. Open **Chat History**.
-7. Confirm that the conversation is recorded.
+7. Confirm the conversation is recorded.
 
-### Live AI Flow
+## ✨ Live AI
 
 1. Open **Live AI Assistant**.
-2. Verify that the configured provider is available.
-3. Submit a test question.
-4. Verify that mode switching and response handling work correctly.
+2. Verify that an AI provider is configured.
+3. Submit a question.
+4. Verify the AI response.
+5. Switch between Mock and Live modes.
 
-### Administrator Flow
+## 👨‍💼 Administrator
 
 1. Log in using an administrator account.
-2. Open the admin dashboard.
-3. Test Knowledge Base and FAQ management.
-4. Review user records and chat logs.
-5. Open AI configuration.
-6. Check ML model status.
+2. Open the dashboard.
+3. Test Knowledge Base management.
+4. Test FAQ management.
+5. Review users and chat logs.
+6. Open AI configuration.
+7. Check ML model status.
 
 ---
 
-# 📚 Knowledge Base Documents
+# 📚 University Knowledge Base
 
-The project includes university reference documents intended to support the chatbot's knowledge base.
+The project includes reference documents covering major areas of university information.
 
-| Document                                  | Coverage                         |
-| ----------------------------------------- | -------------------------------- |
-| `IIUI_Examination_and_Grading_Policy.pdf` | Examination and grading policies |
-| `IIUI_Academic_Calendar.pdf`              | Academic calendar                |
-| `IIUI_Admissions_Eligibility_Guide.pdf`   | Admission requirements           |
-| `IIUI_Course_Catalog.pdf`                 | Course information               |
-| `IIUI_Date_Sheet_Criteria.pdf`            | Date-sheet criteria              |
-| `IIUI_Fee_Structure_FAQs.pdf`             | Fee-related information          |
-| `IIUI_FYP_Guidelines_FCIT.pdf`            | FYP guidelines                   |
-| `IIUI_Hostel_and_Transport_Rules.pdf`     | Hostel and transport rules       |
-| `IIUI_Scholarships_Financial_Aid.pdf`     | Scholarships and financial aid   |
-| `IIUI_Student_Handbook.pdf`               | Student policies and guidance    |
+| Document                                  | Information                    |
+| ----------------------------------------- | ------------------------------ |
+| `IIUI_Examination_and_Grading_Policy.pdf` | Examination and grading        |
+| `IIUI_Academic_Calendar.pdf`              | Academic calendar              |
+| `IIUI_Admissions_Eligibility_Guide.pdf`   | Admission requirements         |
+| `IIUI_Course_Catalog.pdf`                 | Course information             |
+| `IIUI_Date_Sheet_Criteria.pdf`            | Date-sheet criteria            |
+| `IIUI_Fee_Structure_FAQs.pdf`             | Fee information                |
+| `IIUI_FYP_Guidelines_FCIT.pdf`            | FYP guidelines                 |
+| `IIUI_Hostel_and_Transport_Rules.pdf`     | Hostel and transport           |
+| `IIUI_Scholarships_Financial_Aid.pdf`     | Scholarships and financial aid |
+| `IIUI_Student_Handbook.pdf`               | Student policies               |
 
-These documents provide reference material for the project's university knowledge base. The chatbot's actual responses depend on the information stored and indexed by the application's database and retrieval pipeline.
+These documents provide reference material for the project's university knowledge base.
+
+The chatbot's responses depend on the information actually stored, indexed, and retrieved by the application.
 
 ---
 
 # 🎓 FYP Module Coverage
 
-| FYP Module          | Status | Implementation               |
-| ------------------- | :----: | ---------------------------- |
-| User Interface      |    ✅   | Streamlit                    |
-| Authentication      |    ✅   | bcrypt + Flask sessions      |
-| NLP Processing      |    ✅   | NLTK + spaCy                 |
-| Knowledge Base      |    ✅   | SQLite + FAISS               |
-| ML Model            |    ✅   | TF-IDF + Logistic Regression |
-| Response Generation |    ✅   | NLP + ML + Knowledge Base    |
-| Admin Dashboard     |    ✅   | Streamlit + Flask            |
-| Academic Assistance |    ✅   | University KB + Streamlit    |
-| Voice Interaction   |    ✅   | SpeechRecognition + gTTS     |
-| Live AI             |    ✅   | Provider-agnostic AI service |
-| Mock Data Mode      |    ✅   | Local KB + FAISS             |
-| Chat History        |    ✅   | Database-backed storage      |
-| FAQ Management      |    ✅   | Admin CRUD                   |
-| User Management     |    ✅   | Admin interface              |
-| AI Configuration    |    ✅   | Admin settings               |
-| ML Management       |    ✅   | Model status / retraining    |
+| FYP Module               | Status | Technology / Implementation   |
+| ------------------------ | :----: | ----------------------------- |
+| User Interface           |    ✅   | Streamlit                     |
+| Authentication           |    ✅   | bcrypt + Flask sessions       |
+| NLP Processing           |    ✅   | NLTK + spaCy                  |
+| Knowledge Base           |    ✅   | SQLite + FAISS                |
+| ML Model                 |    ✅   | TF-IDF + Logistic Regression  |
+| Intent Detection         |    ✅   | NLP + ML                      |
+| Entity / Text Processing |    ✅   | NLTK + spaCy                  |
+| Response Generation      |    ✅   | NLP + ML + Knowledge Base     |
+| Admin Dashboard          |    ✅   | Streamlit + Flask             |
+| Academic Assistance      |    ✅   | University Knowledge Base     |
+| Voice Interaction        |    ✅   | SpeechRecognition + gTTS      |
+| Live AI                  |    ✅   | Provider-agnostic AI service  |
+| Gemini Integration       |    ✅   | Configurable Live AI provider |
+| Mock Data Mode           |    ✅   | Local KB + FAISS              |
+| Chat History             |    ✅   | Database-backed storage       |
+| FAQ Management           |    ✅   | Admin CRUD                    |
+| User Management          |    ✅   | Admin interface               |
+| AI Configuration         |    ✅   | Admin settings                |
+| ML Management            |    ✅   | Model status / retraining     |
 
 ---
 
-# 📊 Engineering Concepts Demonstrated
+# 📊 Engineering Domains Demonstrated
 
-This project brings together several areas of software and AI engineering:
+## 🤖 Artificial Intelligence
 
-### 🤖 Artificial Intelligence
+* Generative AI integration
+* Gemini-compatible live AI architecture
+* AI provider abstraction
+* Conversational AI
 
-* Live AI provider integration
-* AI-assisted conversational responses
-* Provider abstraction
-
-### 🧠 Natural Language Processing
+## 🧠 Natural Language Processing
 
 * NLTK
 * spaCy
 * Text preprocessing
-* Intent-oriented language processing
+* Intent-oriented processing
 
-### 📈 Machine Learning
+## 📈 Machine Learning
 
-* TF-IDF feature extraction
+* TF-IDF
 * Logistic Regression
 * Intent classification
-* Model artifacts and management
+* Model artifacts
+* Retraining workflow
 
-### 🔎 Information Retrieval
+## 🔎 Information Retrieval
 
 * Sentence Transformers
 * Embeddings
-* FAISS vector search
+* FAISS
+* Semantic similarity search
 * Knowledge-base retrieval
 
-### 🌐 Backend Engineering
+## 🌐 Software Engineering
 
-* Flask
-* Backend API architecture
-* Authentication/session handling
-* Modular service components
+* Frontend/backend separation
+* Flask backend
+* Streamlit interface
+* Modular Python architecture
+* Authentication
+* Session management
+* Administrative workflows
 
-### 🗄️ Data Management
+## 🧪 Testing
 
-* SQLite
-* Knowledge-base storage
-* FAQ management
-* Chat history
-* Logs
-
-### 🧪 Software Testing
-
-* Phase-based test organization
 * Backend testing
 * Authentication testing
-* NLP/ML testing
-* Mock/Live mode testing
+* NLP testing
+* ML testing
+* Mock-mode testing
+* Live-AI testing
+* Phase-based test organization
+
+---
+
+# 💡 Why This Project Is Technically Interesting
+
+The project is not simply a **"chatbot connected to an AI API."**
+
+It demonstrates a layered approach:
+
+```text
+                 ┌──────────────────────────┐
+                 │       User Interface     │
+                 │        Streamlit         │
+                 └────────────┬─────────────┘
+                              │
+                              ▼
+                 ┌──────────────────────────┐
+                 │      Flask Backend       │
+                 └────────────┬─────────────┘
+                              │
+                              ▼
+                 ┌──────────────────────────┐
+                 │      Chat Router         │
+                 └────────────┬─────────────┘
+                              │
+             ┌────────────────┼────────────────┐
+             │                │                │
+             ▼                ▼                ▼
+         🧠 NLP/ML       🔎 Retrieval       ✨ Gemini
+             │                │                │
+             └────────────────┼────────────────┘
+                              ▼
+                    🤖 Response Layer
+                              │
+                              ▼
+                         👨‍🎓 User
+```
+
+This separation makes it possible to demonstrate **traditional AI/ML techniques alongside modern generative AI** within the same application.
 
 ---
 
@@ -620,37 +811,37 @@ This project brings together several areas of software and AI engineering:
 
 ### 1. Why did I build IIUI Smart Chatbot?
 
-I built IIUI Smart Chatbot as my BS Final Year Project to explore how AI, NLP, machine learning, information retrieval, and web application development can be combined to solve a practical university-support problem.
+I built IIUI Smart Chatbot as my BS Final Year Project to explore how AI, NLP, machine learning, information retrieval, and software engineering can be combined to solve a practical university-support problem.
 
-The idea was to create a centralized conversational system where students and faculty could access university-related information through a chatbot interface instead of manually searching through different sources.
+I wanted to build more than a basic chatbot. I designed the system around university knowledge, intent detection, semantic retrieval, administration, authentication, voice interaction, and optional generative AI.
 
-### 2. Why did I use both Mock AI and Live AI modes?
+### 2. Why did I use both traditional ML and Generative AI?
 
-I used two modes because they solve different requirements.
+I used traditional machine learning for structured tasks such as intent classification and generative AI for flexible conversational interaction.
 
-The **Mock Data Assistant** works around the project's local university knowledge base and retrieval system, making it useful for controlled demonstrations and university-specific information.
+This allowed me to separate deterministic or classification-oriented tasks from open-ended language generation instead of using an LLM for every part of the system.
 
-The **Live AI Assistant** provides integration with an external AI provider for more flexible conversational responses.
+### 3. Why did I integrate Gemini?
 
-Separating the two modes also made the architecture easier to test and maintain.
+I integrated Gemini through the Live AI layer to provide a modern generative-AI capability within the chatbot.
 
-### 3. Why did I use Streamlit for the frontend?
+I kept the AI provider behind a separate service layer so the rest of the application does not have to depend directly on one provider implementation.
 
-I used Streamlit because it allowed me to build an interactive Python-based web interface quickly while keeping the frontend closely integrated with the AI and data-processing components.
+### 4. Why did I use Streamlit?
 
-For this FYP, it also allowed me to focus more heavily on the chatbot, NLP, machine-learning, retrieval, and backend functionality without introducing a separate JavaScript frontend framework.
+I used Streamlit because it allowed me to develop an interactive Python-based interface while keeping the project focused on the AI, NLP, ML, retrieval, and backend components.
 
-### 4. Why did I use Flask for the backend?
+For an FYP, this also reduced frontend complexity while still providing a functional web application.
 
-I used Flask to provide a dedicated backend layer for API handling, authentication, sessions, administrative functionality, and communication between the application components.
+### 5. Why did I use Flask?
 
-Separating backend responsibilities from the Streamlit interface also gave the project a clearer application structure.
+I used Flask to provide a dedicated backend layer for API handling, authentication, sessions, administrative functionality, and communication between application components.
 
-### 5. How does my NLP and ML pipeline work?
+This separates backend responsibilities from the Streamlit presentation layer.
 
-I designed the processing pipeline around traditional NLP and machine-learning techniques.
+### 6. How does my machine-learning pipeline work?
 
-The general flow is:
+I designed the intent-classification pipeline as:
 
 ```text
 User Query
@@ -661,76 +852,125 @@ TF-IDF Feature Extraction
     ↓
 Logistic Regression
     ↓
-Intent Detection
-    ↓
-Retrieval / Response Generation
+Intent Classification
 ```
 
-This gives the project an actual machine-learning component instead of relying entirely on an external LLM.
+The predicted intent can then be used by the rest of the chatbot pipeline for retrieval and response generation.
 
-### 6. Why did I use TF-IDF and Logistic Regression?
+### 7. Why did I use TF-IDF and Logistic Regression?
 
-I used TF-IDF to convert text into numerical features and Logistic Regression as the intent-classification model.
+I used TF-IDF to transform text into numerical features and Logistic Regression for intent classification.
 
-This combination is lightweight, interpretable, relatively simple to train, and suitable for a structured classification problem such as identifying common categories of university questions.
+This is a lightweight and practical approach for a structured classification problem such as categorizing common university-related questions.
 
-### 7. Why did I use FAISS and Sentence Transformers?
+### 8. Why did I use Sentence Transformers and FAISS?
 
-I used Sentence Transformers to generate semantic representations and FAISS to perform efficient similarity-based retrieval.
+I used Sentence Transformers to create semantic representations of text and FAISS to perform similarity-based retrieval.
 
-This allows the system to find relevant information based on semantic similarity rather than depending only on exact keyword matches.
+This allows the knowledge-base system to search for information based on semantic similarity rather than relying entirely on exact keyword matching.
 
-### 8. Why did I use SQLite?
+### 9. How does my Mock Data Assistant work?
 
-I used SQLite because the project is primarily a local FYP application and does not require the operational complexity of a large database server.
+I designed Mock mode around local university information.
 
-SQLite provides persistent storage for application data such as users, knowledge-base information, FAQs, and chat-related records while keeping the project easy to run locally.
+The general flow is:
 
-### 9. How did I handle authentication?
+```text
+User Question
+     ↓
+NLP Processing
+     ↓
+Intent / Query Analysis
+     ↓
+Knowledge Retrieval
+     ↓
+FAISS Similarity Search
+     ↓
+Response Generation
+     ↓
+University Answer
+```
 
-I implemented authentication using Flask-based session handling and bcrypt for password hashing.
+This mode does not require every response to be generated by an external AI service.
 
-The application also separates administrative functionality from normal user functionality so that management operations such as knowledge-base and user administration are not exposed as normal user features.
+### 10. How does my Live AI Assistant work?
 
-### 10. How does the admin dashboard help the project?
+The Live AI Assistant routes the conversation through the application's AI service layer.
 
-I included an administrative layer so the chatbot is not just a static question-answering interface.
+When Gemini or another configured provider is enabled, the service communicates with that provider and returns the generated response to the application.
 
-Administrators can manage university information, FAQs, users, chat records, AI configuration, and ML-related functionality through the application.
+The provider-specific implementation remains separated from the main chatbot architecture.
 
-This makes the system more representative of a maintainable software application.
+### 11. Why did I create Mock and Live modes separately?
 
-### 11. Why did I add voice interaction?
+I separated the modes so that the project can demonstrate both:
 
-I added voice interaction to provide an alternative input method for users.
+* A controlled local knowledge/retrieval system
+* A modern generative-AI integration
 
-The voice pipeline converts speech into text and then sends the resulting text through the same chatbot processing pipeline used for typed questions.
+This also makes development and testing easier because the local mode does not depend entirely on external AI availability.
 
-This keeps voice interaction as an additional interface rather than creating a completely separate chatbot system.
+### 12. Why did I use SQLite?
 
-### 12. What software-engineering concepts does this project demonstrate?
+I used SQLite because this is primarily a local FYP application and SQLite provides simple persistent storage without requiring a separate database server.
 
-This project demonstrates:
+It is suitable for storing application data such as users, FAQs, knowledge-base records, and chat-related information within the project's current scope.
 
-* Full-stack Python application development
-* Streamlit UI development
-* Flask backend architecture
-* REST-style API integration
+### 13. How did I implement authentication?
+
+I implemented authentication through Flask sessions and bcrypt password hashing.
+
+I also separated administrator functionality from normal user functionality so that management operations remain within the administrative interface.
+
+### 14. Why did I add voice interaction?
+
+I added voice interaction to provide an alternative way for users to submit questions.
+
+The important part of the design is that voice input eventually becomes text and enters the same chatbot pipeline as a typed question.
+
+### 15. What makes this more than a simple AI chatbot?
+
+I combined several engineering layers:
+
 * NLP processing
-* Machine-learning classification
-* Semantic information retrieval
+* Traditional machine learning
+* Semantic retrieval
 * FAISS vector search
-* Database design with SQLite
-* Authentication and session management
-* Role-aware administration
-* Modular service architecture
-* Automated and phase-based testing
-* Voice-enabled interaction
-* External AI provider integration
+* SQLite knowledge storage
+* Flask backend
+* Streamlit frontend
+* Authentication
+* Administration
+* Voice interaction
+* Live generative AI
+* Gemini integration
+* Automated testing
 
-### 13. What would I improve for a larger production deployment?
+The project therefore demonstrates both **AI concepts and general software-engineering practices**.
 
-For a larger deployment, I would consider moving from SQLite to a production-oriented database where appropriate, adding more comprehensive automated testing, strengthening authorization and secrets management, introducing centralized logging and monitoring, improving deployment infrastructure, adding stronger input validation and rate limiting, and establishing formal observability around the AI and retrieval pipelines.
+### 16. What was the main engineering challenge?
+
+One of the main challenges was coordinating different processing approaches within a single conversational flow.
+
+The system has to handle user input, NLP processing, intent classification, retrieval, response generation, database operations, and optional live AI integration without making every component tightly dependent on another.
+
+I addressed this by separating responsibilities into modules such as the NLP processor, ML classifier, retriever, response generator, chat router, and live AI service.
+
+### 17. What would I improve for a larger production deployment?
+
+For a larger deployment, I would consider:
+
+* Moving from SQLite to a production-oriented database where appropriate
+* More comprehensive automated testing
+* Stronger authorization controls
+* Secure secrets management
+* API rate limiting
+* Centralized logging and monitoring
+* Formal observability
+* Better deployment infrastructure
+* More extensive AI response validation
+* Improved retrieval evaluation
+* Stronger protection against prompt injection and malicious input
 
 ---
 
@@ -738,17 +978,35 @@ For a larger deployment, I would consider moving from SQLite to a production-ori
 
 <div align="center">
 
-### 💼 Interested in working with me?
+## 💼 Let's Build Something With AI
 
-**Abdul Hannan Shahid**
+### **Abdul Hannan Shahid**
 
 **Software Development • AI Applications • Full-Stack Development • NLP/ML • IT Systems**
 
-📧 **Email:** [iamhannanshahid@gmail.com](mailto:iamhannanshahid@gmail.com)
+<br>
 
-💻 **GitHub:** [github.com/Hannan864](https://github.com/Hannan864)
+📧 **Email**
 
-🔗 **LinkedIn:** [linkedin.com/in/hanstudio](https://linkedin.com/in/hanstudio)
+**[iamhannanshahid@gmail.com](mailto:iamhannanshahid@gmail.com)**
+
+<br>
+
+💻 **GitHub**
+
+**github.com/Hannan864**
+
+<br>
+
+🔗 **LinkedIn**
+
+**linkedin.com/in/hanstudio**
+
+<br>
+
+### Open to opportunities involving
+
+**AI Applications · Software Development · Full-Stack Development · NLP/ML · Python · Backend Engineering · IT Systems**
 
 </div>
 
@@ -756,9 +1014,19 @@ For a larger deployment, I would consider moving from SQLite to a production-ori
 
 <div align="center">
 
-### 🎓 IIUI Smart Chatbot
+### 🤖 IIUI Smart Chatbot
 
-**A BS Final Year Project demonstrating practical integration of AI, NLP, machine learning, information retrieval, backend engineering, and university-focused software development.**
+**AI + NLP + Machine Learning + Semantic Search + Gemini + University Knowledge**
+
+Built as a **BS Final Year Project** at **International Islamic University Islamabad**
+
+<br>
+
+[![Python](https://img.shields.io/badge/Built_With-Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)
+[![Gemini](https://img.shields.io/badge/Powered_by-Gemini_AI-8E75B2?style=for-the-badge\&logo=google\&logoColor=white)](https://ai.google.dev/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+<br>
 
 **© 2026 Abdul Hannan Shahid • International Islamic University Islamabad**
 
