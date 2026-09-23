@@ -976,39 +976,52 @@ For a larger deployment, I would consider:
 
 # 📬 Contact & Hire Me
 
-<div align="center">
+<table>
+<tr>
+<td width="55%" valign="top">
 
 ## 💼 Let's Build Something With AI
 
-### **Abdul Hannan Shahid**
+### Abdul Hannan Shahid
 
 **Software Development • AI Applications • Full-Stack Development • NLP/ML • IT Systems**
 
 <br>
 
-📧 **Email**
+📧 **Email:**  
+[**iamhannanshahid@gmail.com**](mailto:iamhannanshahid@gmail.com)
 
-**[iamhannanshahid@gmail.com](mailto:iamhannanshahid@gmail.com)**
+💻 **GitHub:**  
+[**github.com/Hannan864**](https://github.com/Hannan864)
+
+🔗 **LinkedIn:**  
+[**linkedin.com/in/hanstudio**](https://linkedin.com/in/hanstudio)
+
+</td>
+
+<td width="45%" valign="top">
+
+## 🚀 Open to Opportunities
+
+I'm interested in opportunities involving:
+
+- 🤖 AI Applications
+- 💻 Software Development
+- 🌐 Full-Stack Development
+- 🧠 NLP / Machine Learning
+- 🐍 Python Development
+- ⚙️ Backend Engineering
+- 🖥️ IT Systems
 
 <br>
 
-💻 **GitHub**
+**📩 Have a project or opportunity?**
 
-**github.com/Hannan864**
+[**Let's Connect →**](mailto:iamhannanshahid@gmail.com)
 
-<br>
-
-🔗 **LinkedIn**
-
-**linkedin.com/in/hanstudio**
-
-<br>
-
-### Open to opportunities involving
-
-**AI Applications · Software Development · Full-Stack Development · NLP/ML · Python · Backend Engineering · IT Systems**
-
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -1018,12 +1031,13 @@ For a larger deployment, I would consider:
 
 **AI + NLP + Machine Learning + Semantic Search + Gemini + University Knowledge**
 
-Built as a **BS Final Year Project** at **International Islamic University Islamabad**
+Built as a **BS Final Year Project** at  
+**International Islamic University Islamabad**
 
 <br>
 
-[![Python](https://img.shields.io/badge/Built_With-Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)
-[![Gemini](https://img.shields.io/badge/Powered_by-Gemini_AI-8E75B2?style=for-the-badge\&logo=google\&logoColor=white)](https://ai.google.dev/)
+[![Python](https://img.shields.io/badge/Built_With-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Gemini](https://img.shields.io/badge/Powered_by-Gemini_AI-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <br>
