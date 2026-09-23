@@ -1,4 +1,3 @@
-````markdown
 # 🎓 IIUI Smart Chatbot — AI-Powered University Support System
 
 <div align="center">
@@ -764,4 +763,3 @@ For a larger deployment, I would consider moving from SQLite to a production-ori
 **© 2026 Abdul Hannan Shahid • International Islamic University Islamabad**
 
 </div>
-```
